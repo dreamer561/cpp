@@ -242,10 +242,9 @@ Welcome to the C++ learning repository! This repository is your guide to masteri
      Iterators help traverse through container elements:
 
      ```cpp
-     for (auto it = numbers.begin(); it != numbers.end
-(); ++it) {
+     for (auto it = numbers.begin(); it != numbers.end() ++it); {
          std::cout << *it << " ";
-     }
+     };
      ```
 
 
